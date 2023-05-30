@@ -7,18 +7,15 @@ import { getAuth } from "firebase/auth";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-apiKey: "YOUR UNIQUE API KEY",
-authDomain: "YOUR UNIQUE AUTHDOMAIN",
-projectId: "YOUR UNIQUE PROJECTID",
-storageBucket: "YOUR UNIQUE STORAGEBUCKET",
-messagingSenderId: "YOUR UNIQUE MESSAGINGSENDERID",
-appId: "YOUR UNIQUE API KEY"
+  apiKey: "AIzaSyDlyxCkr83pKyQNbHUOnk6-9EHIUKmxwkM",
+  authDomain: "checkin-system-7ea25.firebaseapp.com",
+  projectId: "checkin-system-7ea25",
+  storageBucket: "checkin-system-7ea25.appspot.com",
+  messagingSenderId: "345419773601",
+  appId: "1:345419773601:web:f179a4b9b41483d733e2e0",
 };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 export const auth = getAuth(app);
-export default app
-
-
-
+export default app;
